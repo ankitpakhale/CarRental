@@ -6,7 +6,6 @@ import Navbar from "./Layouts/Navbar";
 import Footer from "./Layouts/Footer";
 
 import About from "./Component/About";
-import Addcar from "./Component/Addcar";
 import Booking from "./Component/Booking";
 import Cars from "./Component/Cars";
 import Contacts from "./Component/Contacts";
