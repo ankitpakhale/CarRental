@@ -23,7 +23,11 @@ const CarBox = ({ carImg, carName, model, price }) => {
         </div>
       </div>
       <div>
-        <Link to="/booking" className="btn btn-warning">
+        <Link
+          to="/booking"
+          className="btn btn-warning"
+          style={{ marginRight: "10px" }}
+        >
           Book Car
         </Link>
         <button

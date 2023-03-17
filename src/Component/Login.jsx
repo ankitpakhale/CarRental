@@ -33,7 +33,7 @@ const Login = () => {
             </div>
             <div class="mt-3">
               <p>
-                Don't have an account
+                Don't have an account &nbsp;
                 <Link to="/registration" class="text-warning">
                   Register here
                 </Link>
