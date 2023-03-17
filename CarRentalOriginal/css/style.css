@@ -2,13 +2,16 @@
 
 nav {
   background-color: gainsboro;
-  height: 60px;
+  height: auto;
 }
 .menu {
-  padding-top: 10px;
+  padding-top: 0px;
+  margin-top: 0px;
   margin-left: auto;
   margin-right: auto;
-  width: 1150px;
+  width: auto;
+  display: flex;
+  justify-content: center;
 }
 .menu-list {
   display: inline;
@@ -266,12 +269,11 @@ a.gal:hover img {
   opacity: 0.2;
 }
 
-
 /*  */
 
-.form-header{
+.form-header {
   padding-bottom: 30px;
-  border-bottom: 1px solid gold ;
+  border-bottom: 1px solid gold;
 }
 /* about */
 
@@ -298,7 +300,6 @@ a.gal:hover img {
 .list li + li {
   margin-top: 19px;
 }
-
 
 .bq1 {
   padding: 61px 38px 26px 46px;

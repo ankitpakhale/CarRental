@@ -1,7 +1,41 @@
 import React from "react";
 
 const Footer = () => {
-  return <div>Footer</div>;
+  return (
+    <>
+      <footer>
+        <div className="row ps-5 pe-5">
+          <div className="col-12">
+            <div className="f_phone">
+              <span>Call Us:</span> +91 9874563210
+            </div>
+            <div className="socials">
+              <a href="#">
+                <i className="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+              <a href="#">
+                <i className="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+              <a href="#">
+                <i className="fa fa-google-plus" aria-hidden="true"></i>
+              </a>
+            </div>
+            <div className="copy">
+              <div className="st1">
+                <div className="brand">
+                  Tour<span className="text-warning">C</span>ars
+                </div>
+                &copy; 2023 |{" "}
+                <a href="#" className="text-white">
+                  Privacy Policy
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </>
+  );
 };
 
 export default Footer;
