@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -26,9 +27,9 @@ const Footer = () => {
                   Tour<span className="text-warning">C</span>ars
                 </div>
                 &copy; 2023 |{" "}
-                <a href="#" className="text-white">
+                <Link to="/" className="text-white">
                   Privacy Policy
-                </a>
+                </Link>
               </div>
             </div>
           </div>

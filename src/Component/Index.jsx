@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const index = () => {
   return (
@@ -127,38 +128,38 @@ const index = () => {
         <div className="row">
           <div className="col-md-4 mt-5">
             <div className="card">
-              <a href="cars.html" className="type">
+              <Link to="/cars" className="type">
                 <img
                   width="100%"
                   src={require("../Assets/images/page1_img1.jpg")}
                   alt=""
                 />
                 <span className="type_caption"> Economy </span>
-              </a>
+              </Link>
             </div>
           </div>
           <div className="col-md-4 mt-5">
             <div className="card">
-              <a href="cars.html" className="type">
+              <Link to="/cars" className="type">
                 <img
                   width="100%"
                   src={require("../Assets/images/page1_img2.jpg")}
                   alt=""
                 />
                 <span className="type_caption"> Standard </span>
-              </a>
+              </Link>
             </div>
           </div>
           <div className="col-md-4 mt-5">
             <div className="card">
-              <a href="cars.html" className="type">
+              <Link to="/cars" className="type">
                 <img
                   width="100%"
                   src={require("../Assets/images/page1_img3.jpg")}
                   alt=""
                 />
                 <span className="type_caption"> Lux </span>
-              </a>
+              </Link>
             </div>
           </div>
         </div>

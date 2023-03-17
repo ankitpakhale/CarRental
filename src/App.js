@@ -30,7 +30,7 @@ function App() {
             <Route path="/" exact element={<Index />} />
             <Route path="/login" exact element={<Login />} />
             <Route path="/registration" exact element={<Registration />} />
-            <Route path="/resentbooking" exact element={<Resentbooking />} />
+            <Route path="/recentbooking" exact element={<Resentbooking />} />
             <Route path="/services" exact element={<Services />} />
           </Routes>
         </main>
