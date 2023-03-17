@@ -24,7 +24,6 @@ function App() {
         <main className="py-3">
           <Routes>
             <Route path="/about" exact element={<About />} />
-            <Route path="/addcar" exact element={<Addcar />} />
             <Route path="/booking" exact element={<Booking />} />
             <Route path="/cars" exact element={<Cars />} />
             <Route path="/contact" exact element={<Contacts />} />
