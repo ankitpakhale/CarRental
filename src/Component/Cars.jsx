@@ -42,218 +42,82 @@ const cars = () => {
 
         <div className="row mt-3">
           <div className="col-md-4 mt-3">
-            <CarBox carImg={require("../Assets/images/page3_img1.jpg")} carName={"Mercedes"} model={"S Class"} price={"9850000"} />
+            <CarBox
+              carImg={require("../Assets/images/page3_img1.jpg")}
+              carName={"Mercedes"}
+              model={"S Class"}
+              price={"9850000"}
+            />
           </div>
           <div className="col-md-4 mt-3">
-            <CarBox carImg={require("../Assets/images/page3_img2.jpg")} carName={"Mercedes"} model={"S Class"} price={"9850000"} />
+            <CarBox
+              carImg={require("../Assets/images/page3_img2.jpg")}
+              carName={"Mercedes"}
+              model={"S Class"}
+              price={"9850000"}
+            />
           </div>
           <div className="col-md-4 mt-3">
-            <CarBox carImg={require("../Assets/images/page3_img3.jpg")} carName={"Mercedes"} model={"S Class"} price={"9850000"} />
+            <CarBox
+              carImg={require("../Assets/images/page3_img3.jpg")}
+              carName={"Mercedes"}
+              model={"S Class"}
+              price={"9850000"}
+            />
           </div>
-         
         </div>
         <h2 className="mt-3">Standard</h2>
         <div className="row mt-3">
           <div className="col-md-4 mt-3">
-            <a href="images/page3_img1.jpg" target="_blank" className="gal">
-              <img src="images/page3_img1.jpg" alt="" />
-            </a>
-            <div className="detail">
-              <div>
-                <h4>
-                  Car Name :- <span className="color1">ABC</span>
-                </h4>
-                <h4>
-                  Modal :- <span className="color1">2016</span>
-                </h4>
-              </div>
-              <div>
-                <h4>
-                  <span className="color1">&#x20B9; 1000/DAY</span>
-                </h4>
-              </div>
-            </div>
-            <div>
-              <a href="booking.html" className="btn btn-warning">
-                Book Car
-              </a>
-              <button
-                type="button"
-                data-bs-toggle="modal"
-                data-bs-target="#carstatus"
-                className="btn btn-warning"
-              >
-                status
-              </button>
-            </div>
+            <CarBox
+              carImg={require("../Assets/images/page3_img1.jpg")}
+              carName={"Mercedes"}
+              model={"S Class"}
+              price={"9850000"}
+            />
           </div>
           <div className="col-md-4 mt-3">
-            <a href="images/page3_img2.jpg" target="_blank" className="gal">
-              <img src="images/page3_img2.jpg" alt="" />
-            </a>
-            <div className="detail">
-              <div>
-                <h4>
-                  Car Name :- <span className="color1">ABC</span>
-                </h4>
-                <h4>
-                  Modal :- <span className="color1">2016</span>
-                </h4>
-              </div>
-              <div>
-                <h4>
-                  <span className="color1">&#x20B9; 1000/DAY</span>
-                </h4>
-              </div>
-            </div>
-            <div>
-              <a href="booking.html" className="btn btn-warning">
-                Book Car
-              </a>
-              <button
-                type="button"
-                data-bs-toggle="modal"
-                data-bs-target="#carstatus"
-                className="btn btn-warning"
-              >
-                status
-              </button>
-            </div>
+            <CarBox
+              carImg={require("../Assets/images/page3_img2.jpg")}
+              carName={"Mercedes"}
+              model={"S Class"}
+              price={"9850000"}
+            />
           </div>
           <div className="col-md-4 mt-3">
-            <a href="images/page3_img3.jpg" target="_blank" className="gal">
-              <img src="images/page3_img3.jpg" alt="" />
-            </a>
-            <div className="detail">
-              <div>
-                <h4>
-                  Car Name :- <span className="color1">ABC</span>
-                </h4>
-                <h4>
-                  Modal :- <span className="color1">2016</span>
-                </h4>
-              </div>
-              <div>
-                <h4>
-                  <span className="color1">&#x20B9; 1000/DAY</span>
-                </h4>
-              </div>
-            </div>
-            <div>
-              <a href="booking.html" className="btn btn-warning">
-                Book Car
-              </a>
-              <button
-                type="button"
-                data-bs-toggle="modal"
-                data-bs-target="#carstatus"
-                className="btn btn-warning"
-              >
-                status
-              </button>
-            </div>
+            <CarBox
+              carImg={require("../Assets/images/page3_img3.jpg")}
+              carName={"Mercedes"}
+              model={"S Class"}
+              price={"9850000"}
+            />
           </div>
         </div>
         <h2 className="mt-3">Lux</h2>
         <div className="row mt-3">
           <div className="col-md-4 mt-3">
-            <a href="images/page3_img1.jpg" target="_blank" className="gal">
-              <img src="images/page3_img1.jpg" alt="" />
-            </a>
-            <div className="detail">
-              <div>
-                <h4>
-                  Car Name :- <span className="color1">ABC</span>
-                </h4>
-                <h4>
-                  Modal :- <span className="color1">2016</span>
-                </h4>
-              </div>
-              <div>
-                <h4>
-                  <span className="color1">&#x20B9; 1000/DAY</span>
-                </h4>
-              </div>
-            </div>
-            <div>
-              <a href="booking.html" className="btn btn-warning">
-                Book Car
-              </a>
-              <button
-                type="button"
-                data-bs-toggle="modal"
-                data-bs-target="#carstatus"
-                className="btn btn-warning"
-              >
-                status
-              </button>
-            </div>
+            <CarBox
+              carImg={require("../Assets/images/page3_img1.jpg")}
+              carName={"Mercedes"}
+              model={"S Class"}
+              price={"9850000"}
+            />
           </div>
           <div className="col-md-4 mt-3">
-            <a href="images/page3_img2.jpg" target="_blank" className="gal">
-              <img src="images/page3_img2.jpg" alt="" />
-            </a>
-            <div className="detail">
-              <div>
-                <h4>
-                  Car Name :- <span className="color1">ABC</span>
-                </h4>
-                <h4>
-                  Modal :- <span className="color1">2016</span>
-                </h4>
-              </div>
-              <div>
-                <h4>
-                  <span className="color1">&#x20B9; 1000/DAY</span>
-                </h4>
-              </div>
-            </div>
-            <div>
-              <a href="booking.html" className="btn btn-warning">
-                Book Car
-              </a>
-              <button
-                type="button"
-                data-bs-toggle="modal"
-                data-bs-target="#carstatus"
-                className="btn btn-warning"
-              >
-                status
-              </button>
-            </div>
+            <CarBox
+              carImg={require("../Assets/images/page3_img2.jpg")}
+              carName={"Mercedes"}
+              model={"S Class"}
+              price={"9850000"}
+            />
           </div>
           <div className="col-md-4 mt-3">
-            <a href="images/page3_img3.jpg" target="_blank" className="gal">
-              <img src="images/page3_img3.jpg" alt="" />
-            </a>
-            <div className="detail">
-              <div>
-                <h4>
-                  Car Name :- <span className="color1">ABC</span>
-                </h4>
-                <h4>
-                  Modal :- <span className="color1">2016</span>
-                </h4>
-              </div>
-              <div>
-                <h4>
-                  <span className="color1">&#x20B9; 1000/DAY</span>
-                </h4>
-              </div>
-            </div>
-            <div>
-              <a href="booking.html" className="btn btn-warning">
-                Book Car
-              </a>
-              <button
-                type="button"
-                data-bs-toggle="modal"
-                data-bs-target="#carstatus"
-                className="btn btn-warning"
-              >
-                status
-              </button>
-            </div>
+            <CarBox
+              carImg={require("../Assets/images/page3_img3.jpg")}
+              carName={"Mercedes"}
+              model={"S Class"}
+              price={"9850000"}
+            />
           </div>
         </div>
       </div>
