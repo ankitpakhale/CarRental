@@ -60,5 +60,4 @@ const Resentbooking = () => {
     </>
   );
 };
-
 export default Resentbooking;

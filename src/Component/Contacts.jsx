@@ -32,7 +32,6 @@ const contacts = () => {
               </div>
               <p>Don’t forget, 24/7 support is available for Customer</p>
 
-              <p></p>
               <address>
                 <dl>
                   <dt>

@@ -39,7 +39,6 @@ const cars = () => {
           </div>
         </div>
         <h2 className="mt-3">Economy</h2>
-
         <div className="row mt-3">
           <div className="col-md-4 mt-3">
             <CarBox

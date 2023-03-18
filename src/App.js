@@ -38,14 +38,5 @@ function App() {
     </>
   );
 }
-// there are 2 array of objects
-// first array length is 5 
-// second array is blank
-
-// add all the data of array 1 in array 2, index wise
-
-// when we remove data from array 2 it should get removed
-// when we add data in array 2 it should get add but in same index as it was previously
-
 
 export default App;
